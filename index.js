@@ -1,7 +1,7 @@
 /*--------------------
 Vars
 --------------------*/
-let progress = 50
+let progress = 10
 let startX = 0
 let active = 0
 let isDown = false
@@ -91,4 +91,5 @@ document.addEventListener('mousemove', handleMouseMove)
 document.addEventListener('mouseup', handleMouseUp)
 document.addEventListener('touchstart', handleMouseDown)
 document.addEventListener('touchmove', handleMouseMove)
+
 document.addEventListener('touchend', handleMouseUp)
